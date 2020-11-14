@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>CSS place-items Property</title> 
+		<style> 
+			h1 { 
+				color: green; 
+			} 
+			#container { 
+				display: flex; 
+				height: 200px; 
+				width: 460px; 
+				flex-wrap: wrap; 
+				background-color: gray; 
+				/* place-items can be changed in the live sample */ 
+				place-items: flex-start; 
+			} 
+
+			div > div { 
+				border: 2px solid black; 
+				width: 60px; 
+				background-color: green; 
+				color: white; 
+			} 
+
+			.short { 
+				font-size: 12px; 
+				height: 30px; 
+			} 
+
+			.tall { 
+				font-size: 14px; 
+				height: 40px; 
+			} 
+		</style> 
+	</head> 
+	<body> 
+		<center> 
+			<h1>GeeksforGeeks</h1> 
+			<b>CSS place-items Property</b> 
+			<div id="container"> 
+				<div class="short">Geeks</div> 
+				<div class="short"> 
+					Computer<br /> 
+					Science 
+				</div> 
+				<div class="tall"> 
+					Geeks<br /> 
+					for 
+				</div> 
+				<div class="tall"> 
+					Portal<br /> 
+					for 
+				</div> 
+				<div class="tall"></div> 
+			</div> 
+		</center> 
+	</body> 
+</html> 

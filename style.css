@@ -1,0 +1,25 @@
+.parent {
+  display: grid;
+  place-items: center;
+  
+  background: navy;
+  width: 500px;
+  height: 500px;
+  
+  resize: both;
+  overflow: auto;
+}
+
+.child {
+  // etc.
+  padding: 0.5rem;
+  border-radius: 50px;
+  border: 1px solid red;
+  background: lightpink;
+  font-size: 20rem;
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, serif;
+}
